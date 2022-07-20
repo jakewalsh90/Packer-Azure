@@ -9,9 +9,9 @@ Packer deployment files for Azure
 
 2. Identify the image you wish to deploy using the Azure CLI. For example, the below finds all the Windows Desktop Offers, and then finds the Windows 11 SKUs - change this as required for your needs/locations:
 
-    <code>az vm image list-offers -l uksouth -p MicrosoftWindowsDesktop --query [].name -o tsv
+    <code>az vm image list-offers -l uksouth -p MicrosoftWindowsDesktop --query [].name -o tsv</code>
 
-    az vm image list-skus -l uksouth -f windows-11 -p MicrosoftWindowsDesktop --query [].name -o tsv</code>
+    <code>az vm image list-skus -l uksouth -f windows-11 -p MicrosoftWindowsDesktop --query [].name -o tsv</code>
 
 3. Create the required Resource Group for Packer:
 
