@@ -5,7 +5,7 @@ Packer deployment files for Azure
 
 1. Install Packer - I would recommend using Chocolatey to do this:
 
-    choco install packer
+    <code>choco install packer</code>
 
 2. Identify the image you wish to deploy using the Azure CLI. For example, the below finds all the Windows Desktop Offers, and then finds the Windows 11 SKUs - change this as required for your needs/locations:
 
