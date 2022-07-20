@@ -1,2 +1,2 @@
 # Packer
-Packer files/templates/scripts
+Packer deployment files for Azure
