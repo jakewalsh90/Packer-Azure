@@ -35,6 +35,6 @@ Within the packer file you wish to use, you will need to add this information to
 
 5. We are now ready to run Packer. To run packer use the following command:
 
-    <code>./ packer build demo.json</code>
+    <code>./ packer build packer-file.json</code>
 
 Packer will now run and create your image!
