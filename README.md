@@ -21,7 +21,7 @@ Packer deployment files for Azure
 
 4. Create a Service Principal for Packer to use:
 
-   <code>az ad sp create-for-rbac --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"</code>
+   <code>az ad sp create-for-rbac --name packer --role contributor --scopes /subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx --query "{ client_id: appId, client_secret: password, tenant_id: tenant }"</code>
 
 This will output something similar to the below:
 
