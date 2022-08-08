@@ -17,7 +17,8 @@ Packer deployment files for Azure
 
 3. Create the required Resource Group for Packer:
 
-    <code>az group create -n Packer1 -l uksouth</code>
+    <code>az group create -n packer-images -l uksouth</code>
+    <code>az group create -n packer-build -l uksouth</code>
 
 4. Create a Service Principal for Packer to use:
 
