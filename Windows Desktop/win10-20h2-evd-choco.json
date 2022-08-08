@@ -6,7 +6,7 @@
       "client_secret": "__client_secret__",
       "subscription_id": "__subscription_id__",
   
-      "managed_image_resource_group_name": "packer-win10",
+      "managed_image_resource_group_name": "packer-images",
       "managed_image_name": "packer-win10-evd-10h2",
   
       "os_type": "Windows",
@@ -24,7 +24,7 @@
           "environment": "demolabv1-packer"
       },
   
-      "build_resource_group_name": "demolabv1-packer",
+      "build_resource_group_name": "packer-build",
       "vm_size": "Standard_D2s_v4"
     }],
     "provisioners": [{
